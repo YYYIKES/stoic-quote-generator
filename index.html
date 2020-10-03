@@ -1,0 +1,42 @@
+<!--
+
+Created by:     GHXXST
+Website:        https://github.com/GHXXST/
+
+Project:        Stoic Quote Generator
+Description:    Generates new stoic quotes based on Marcus Aurelius' 'Meditations'.
+
+Requirements:   p5.js, rita.js
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Stoic Quote Generator</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/rita.js"></script>
+    <script src="scripts/stoicgen.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <h1 style="color:#00e699;">Stoic Quote Generator</h1>
+        <p>Generates new <b>stoic quotes</b> based on Marcus Aurelius' 'Meditations'.</p>
+        <p style="color:#a6a6a6; font-size:9pt; line-height:14pt;"><i>Script written in JavaScript using p5.js and rita.js.</i>
+            <p style="color:#a6a6a6; font-size:9pt; line-height:14pt;">Created by: <a href="https://github.com/ghxxst" target="_blank">GHXXST</a></p>
+            <p><button id="button">Generate</button></p>
+            <div class="genStatements">
+                <p id="gen0"></p>
+            </div>
+    </div>
+</body>
+
+</html>

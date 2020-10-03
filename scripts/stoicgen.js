@@ -12,7 +12,7 @@ Requirements:   p5.js, rita.js
 
 
 var generator;
-const n = 3;  // N-gram length
+const n = 2;  // N-gram length
 
 
 function setup() {
